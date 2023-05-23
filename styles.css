@@ -9,11 +9,19 @@ nav ul {
   color:cornsilk;
   border-radius:7px;
   padding:10px;
+
+  
+}
+nav ul:hover{
+  border-style:solid;
+  border-color:black;
+  border-width:3px;
+  padding:7px;
 }
 nav ul li {
   list-style-type:none;
   display:inline
-  
+ 
 }
 nav ul li {
   margin-right: 10px;
@@ -29,16 +37,49 @@ y a {
   color:crimson;
   background-color:khaki;
   text-decoration:none;
-  padding:3px;
-  
+  padding:0px;
+  border-radius:0px;
+}
+y a:hover {
+  border-style:solid;
+  border-width:2px;
 }
 
+.topDivider {
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: crimson;
+  padding-bottom: 0px;
+  
+  
 
+}
 
+img {
+  border-radius:10px;
+}
 
+figure {
+    margin:0px;
+}
+#welcometext {
+  text-decoration:none;
+  text-align: center;
+}
 
-
-
+#options {
+  
+  color:crimson;
+  background-color:khaki;
+  
+}
+#options:hover {
+   border-style:solid;
+  border-width:2px;
+}
+#space {
+  color:cornsilk;
+}
 
 
 
